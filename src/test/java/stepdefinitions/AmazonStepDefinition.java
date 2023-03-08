@@ -66,6 +66,7 @@ public class AmazonStepDefinition {
     public void kullaniciIçinAramaYapar(String string) {
         amazonPage = new AmazonPage();
         amazonPage.aramaKutusu.sendKeys(string, Keys.ENTER);
+
     }
 
     @Then("sayfa basliginin {string} icerdigini test eder")
